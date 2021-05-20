@@ -53,7 +53,7 @@
   "scripts": {
     "build": "./node_modules/gulp/bin/gulp.js build",
     "test": "jest .",
-    "prepare": "npm run build && npm run test -- -u;",
+    "prepare": "npm run build",
     "clean": "./node_modules/gulp/bin/gulp.js clean"
   }
 }
